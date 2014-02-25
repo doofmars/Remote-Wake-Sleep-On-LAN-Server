@@ -7,11 +7,6 @@
 	
 	UPDATE THE VALUES IN THIS FILE AND CHANGE THE NAME TO: "config.php"
 	*/
-
-	//Choose a passphrase and find the sha256 hash of that passphrase.
-	//You can use an online calculator to generate the hash: http://www.xorbin.com/tools/sha256-hash-calculator.
-	//Unless you are using an SSL connection to your server, remember that passphrases could still be obtained via a man-in-the-middle attack.
-	$APPROVED_HASH = "PUT SHA256 HASH OF YOUR PASSPHRASE HERE";
 	
 	//This is the number of times that the WOL server will try to ping the target computer to check if it has woken up. Default = 10.
 	$MAX_PINGS = 10;
