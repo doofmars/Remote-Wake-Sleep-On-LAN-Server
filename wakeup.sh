@@ -7,5 +7,4 @@ if test -f /var/www/wakeupflag
 then
 	date
 	wakeonlan 00:00:00:00:00:00
-else
 fi
